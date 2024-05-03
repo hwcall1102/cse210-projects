@@ -46,7 +46,6 @@ public class Journal
             {
                 String journalEntries = reader.ReadToEnd();
                 Console.Write(journalEntries);
-                _entries.Add(journalEntries);
             }
         }
     }
