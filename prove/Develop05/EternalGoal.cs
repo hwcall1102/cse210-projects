@@ -41,7 +41,7 @@ namespace eternal_quest
 
         public override string ToCSVRecord()
         {
-            return $"{_goalType}|{GetGoalName()}|{GetGoalDescription()}|{Ge  mmcvtGoalPoints()}|{GetRunningTotal()}|{_goalComplete}";
+            return $"{_goalType}|{GetGoalName()}|{GetGoalDescription()}|{GetGoalPoints()}|{GetRunningTotal()}|{_goalComplete}";
         }
 
         public override string ToString()
